@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";
 import "./App.css";
-const API = "https://online-survey-4sef.onrender.com/api";
+const API = "https://online-survey-be.onrender.com/api";
 const emptyForm = {
   name: "",
   department: "",

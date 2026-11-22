@@ -16,9 +16,9 @@ const router = createBrowserRouter(
     { path: "/getAllData", element: <GetAllDAta /> }
   ],
   {
-    basename: window.location.hostname.endsWith("github.io")
-      ? "/online_survey"
-      : "/"
+   basename: window.location.hostname.endsWith("github.io")
+  ? "/Online-survey/"
+  : "/"
   }
 );
 
